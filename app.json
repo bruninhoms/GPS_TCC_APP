@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "gpsv2",
+    "description": "This project is really great.",
+    "slug": "gpsv2",
+    "privacy": "public",
+    "sdkVersion": "30.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/media/icogps2.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "com.gpstcc.myapp",
+      "versionCode": 1,
+      "permissions": [],
+      "icon": "./src/media/icogps2.png",
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
